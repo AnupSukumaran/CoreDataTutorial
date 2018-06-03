@@ -13,6 +13,7 @@
 		5A19C18020C2D43E003DFAC1 /* CoreDataTutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A19C17E20C2D43E003DFAC1 /* CoreDataTutorial.xcdatamodeld */; };
 		5A19C18220C2D441003DFAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A19C18120C2D441003DFAC1 /* Assets.xcassets */; };
 		5A19C18520C2D441003DFAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A19C18320C2D441003DFAC1 /* LaunchScreen.storyboard */; };
+		5A19C18D20C2D7A6003DFAC1 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A19C18C20C2D7A6003DFAC1 /* UsersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5A19C18120C2D441003DFAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A19C18420C2D441003DFAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A19C18620C2D441003DFAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A19C18C20C2D7A6003DFAC1 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				5A19C17720C2D43E003DFAC1 /* AppDelegate.swift */,
 				5A19C17920C2D43E003DFAC1 /* ViewController.swift */,
+				5A19C18C20C2D7A6003DFAC1 /* UsersViewController.swift */,
 				5A19C17B20C2D43E003DFAC1 /* Main.storyboard */,
 				5A19C18120C2D441003DFAC1 /* Assets.xcassets */,
 				5A19C18320C2D441003DFAC1 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A19C17A20C2D43E003DFAC1 /* ViewController.swift in Sources */,
+				5A19C18D20C2D7A6003DFAC1 /* UsersViewController.swift in Sources */,
 				5A19C17820C2D43E003DFAC1 /* AppDelegate.swift in Sources */,
 				5A19C18020C2D43E003DFAC1 /* CoreDataTutorial.xcdatamodeld in Sources */,
 			);
