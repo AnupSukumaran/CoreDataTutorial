@@ -34,11 +34,13 @@ class ViewController: UIViewController {
             newUser.setValue(self.firstName!.text, forKey: "firstname")
             newUser.setValue(self.secondName!.text, forKey: "secondname")
             
-            do{
-                try context.save()
-            }catch let error {
-                print("COREDATA ERROR = \(error.localizedDescription)")
-            }
+            (UIApplication.shared.delegate as! AppDelegate).saveContext()
+            
+//            do{
+//                try context.save()
+//            }catch let error {
+//                print("COREDATA ERROR = \(error.localizedDescription)")
+//            }
             
         }else{
             print("Please fill the textfields")

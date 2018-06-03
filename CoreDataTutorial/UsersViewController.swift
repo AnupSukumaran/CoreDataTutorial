@@ -65,6 +65,7 @@ extension UsersViewController: UITableViewDelegate {
         if editingStyle == .delete {
             let user = userArray[indexPath.row]
             context.delete(user)
+            
             (UIApplication.shared.delegate as! AppDelegate).saveContext()
             // fetch is used to update the array for the table
             do{
